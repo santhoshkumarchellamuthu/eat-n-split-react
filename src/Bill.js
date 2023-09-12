@@ -29,7 +29,7 @@ const Bill = ({
             <label>💰 Bill value</label>
             <input
               type="number"
-              defaultValue={bill}
+              value={bill}
               onChange={(e) => billValue(Number(e.target.value))}
             ></input>
           </>
@@ -38,7 +38,7 @@ const Bill = ({
             <label>🧍‍♀️ Your expense</label>
             <input
               type="number"
-              defaultValue={mybill}
+              value={mybill}
               onChange={(e) => yourExpen(Number(e.target.value))}
             ></input>
           </>

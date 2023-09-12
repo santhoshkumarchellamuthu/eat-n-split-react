@@ -20,8 +20,8 @@ function App() {
   };
   const splitFunc = (value, id, totalBill) => {
     SetSplit(0);
-    setBill(0);
-    setMybill(0);
+    setBill("");
+    setMybill("");
     const splitArray = [...data];
     const splitedArray = splitArray.map((only) => {
       only.click = false;
@@ -67,6 +67,8 @@ function App() {
   };
   // for select button
   const select = (id) => {
+    setBill("");
+    setMybill("");
     const clickData = [...data];
     const ClikedData = clickData.map((value) => {
       if (value.id === id) value.click = !value.click;

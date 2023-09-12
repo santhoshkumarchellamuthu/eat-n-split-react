@@ -42,7 +42,7 @@ const AddFriend = ({ addData, data }) => {
           <input
             type="text"
             onChange={(e) => getPic(e.target.value)}
-            Value={img}
+            value={img}
           ></input>
           <button className="add" onClick={handleClosbtn}>
             add
