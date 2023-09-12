@@ -1,0 +1,39 @@
+.block{
+    display: block;
+}
+.none{
+    display: none;
+}
+.second-cont{
+    margin-top: 50px;
+    padding: 20px 50px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff4e6;
+}
+.second-cont label{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.second-cont input{
+    width: 50%;
+    margin-bottom: 10px;
+}
+.second-cont span{
+    display: block;
+    height: 30px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 1px solid;
+    width: 50%;
+}
+select{
+    width: 30%;
+}
+.close{
+    bottom: 60px;
+}
